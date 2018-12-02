@@ -1,7 +1,7 @@
 #load "Utils.fs"
 open Utils
 
-let input = Utils.readlinesInt "AdventOfCode/input/day1.txt"
+let input = Utils.readlinesInt "AdventOfCode/input/day01.txt"
 let solveA = Seq.sum
 let solveB deltas =
     let cumulativeSums = 
